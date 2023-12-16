@@ -39,7 +39,7 @@ int main (int argc, char *argv[])
 		digits[1] = curr;
 		break;
 	    }
-	}
+	}	
 	sscanf(digits, "%d", &temp);
 	printf("Adding %d to %d\n", temp, sum);
 	sum += temp;
